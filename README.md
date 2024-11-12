@@ -9,6 +9,9 @@ English football has been going for a long time, its origins trace back to days 
 •	I knew I’d need 3 main datasets. One for the all the end of season league tables. Another dataset for the manager history (e.g. containing their appointed date, win ratio, matches coached, matches lost etc.) And lastly, a dataset for all the matches played in the range of my analysis (1992/93 to 2023/24)
 •	First, to get a whole list of teams that had played in the EPL. I collected data from the premier league site. Then using the team names, I was able to create team ids for all the teams. Then collected the league tables for all the seasons to be analyzed from Transfermarkt. After this was done, I collected the manager table from Transfermarkt. I also created a manager ID by using characters from the manager’s name and the team id of the teams they managed. For Example, Jose Mourinho would have three manager ids for his time at Chelsea, Manchester United and Tottenham. Then I mapped each manager id to a home and away team in the matches dataset to indicate which manager was appointed for each game for the range of my analysis.
 
+![all_matches_test ipynb - datacleaning - Visual Studio Code  Administrator  01_10_2024 17_53_15](https://github.com/user-attachments/assets/7274c425-44dc-4c36-9d48-f14cad61ab99)
+
+
 Tools used:
 VS Code, Python, Selenium, Pandas, BeautifulSoup
 
