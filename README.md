@@ -15,8 +15,11 @@ English football has been going for a long time, its origins trace back to days 
 
 
 The datasets for this project were obtained through web scraping websites such as Transfermarkt and the official Premier League website. Python and several libraries were the tools used for the web scraping. This information is publicly available, in later sections I will show how the data was obtained. The data consists of three main tables:
+
 •	All the league tables from the 1992/1993 season to the 2023/2024 season. Each league table for each season consists of 20 rows for each team and 10 columns for Table Position, Team Name, Number of Games Played, Number of Games Won, Number of Games Drawn, Number of Games Lost, Goals (Scored : Against), Goal Difference, Points Gained, Manager(s) In Charge of The Team over the Course of the season. (The League Tables for the 1992/1993 season to the 1995/1996 season have 22 rows). The league tables were later consolidated into one in Power BI adding a new column to indicate what season the league table was originally from.
+
 •	The manager history table consists of 487 and 15 columns for Manager ID, Team ID, Team Name, Manager Name, Date Appointed, End of Time, Time in Post, Number of Matches Managed, Number of Games Won, Number of Games Drawn, Number of Games Lost, Points Per Game, Points Accumulated, Win Ratio, Seasons Managed.
+
 •	The matches table consists of 11953 rows and 14 columns for Match ID, Match Day in Season, Date Match Was Played, Home Team, Home Team ID, Home Team Manager, Home Team Manager ID, Home Team Score, Away Team Score, Away Team, Away Team ID, Away Team Manager, Away Team Manager ID, Season Match Was Played.
 
 
